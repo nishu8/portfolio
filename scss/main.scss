@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -46,6 +47,8 @@ header {
 
 .text-secondary {
   color: $secondary-color;
+  text-align: center;
+  margin: 0rem;
 }
 
 main {
